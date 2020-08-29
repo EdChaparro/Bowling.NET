@@ -5,9 +5,9 @@
 
     <IsPackable>false</IsPackable>
 
-    <AssemblyName>intrepidproducts.bowling.tests</AssemblyName>
+    <AssemblyName>IntrepidProducts.Bowling.Tests</AssemblyName>
 
-    <RootNamespace>intrepidproducts.bowling.tests</RootNamespace>
+    <RootNamespace>IntrepidProducts.Bowling.Tests</RootNamespace>
 
     <Platforms>AnyCPU;x64</Platforms>
   </PropertyGroup>

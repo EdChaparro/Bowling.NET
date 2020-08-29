@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <RootNamespace>intrepidproducts.bowling</RootNamespace>
-    <AssemblyName>intrepidproducts.bowling</AssemblyName>
+    <RootNamespace>IntrepidProducts.Bowling</RootNamespace>
+    <AssemblyName>IntrepidProducts.Bowling</AssemblyName>
     <Platforms>AnyCPU;x64</Platforms>
   </PropertyGroup>
 

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace intrepidproducts.bowling
+namespace IntrepidProducts.Bowling
 {
     public interface IFrame
     {

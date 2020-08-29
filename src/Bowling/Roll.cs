@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace intrepidproducts.bowling
+namespace IntrepidProducts.Bowling
 {
     public interface IRoll
     {

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace intrepidproducts.bowling.tests
+namespace IntrepidProducts.Bowling.Tests
 {
     [TestClass]
     public class GameTest
