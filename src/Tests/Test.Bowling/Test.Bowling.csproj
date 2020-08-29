@@ -8,6 +8,8 @@
     <AssemblyName>intrepidproducts.bowling.tests</AssemblyName>
 
     <RootNamespace>intrepidproducts.bowling.tests</RootNamespace>
+
+    <Platforms>AnyCPU;x64</Platforms>
   </PropertyGroup>
 
   <ItemGroup>
