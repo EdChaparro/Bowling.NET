@@ -20,7 +20,7 @@ namespace IntrepidProducts.Bowling
             {
                 if (value < 0 || value > 10)
                 {
-                    throw new ArgumentException();
+                    throw new ArgumentException("Pin Count must be between 0 and 10, inclusive");
                 }
 
                 _pinsDownCount = value;
