@@ -107,5 +107,13 @@ namespace IntrepidProducts.Bowling.Tests
             Assert.IsTrue(_frame.AddRoll(new Roll { PinsDownCount = 1 }));
             Assert.IsTrue(_frame.IsComplete);
         }
+
+        [TestMethod]
+        public void ShouldOnlyPermitTwoRollsWhenNotStrikeOrSpare()
+        {
+            Assert.IsTrue(_frame.AddRoll(new Roll { PinsDownCount = 2 }));
+            Assert.IsTrue(_frame.AddRoll(new Roll { PinsDownCount = 3}));
+            Assert.IsFalse(_frame.AddRoll(new Roll { PinsDownCount = 4 }));
+        }
     }
 }
